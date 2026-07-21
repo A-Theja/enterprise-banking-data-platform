@@ -58,6 +58,5 @@ Sources -> Azure Data Factory -> ADLS Bronze -> Databricks/PySpark -> Delta Silv
 9. Build Power BI dashboard
 10. Add CI/CD, monitoring, and interview documentation
 
-## Resume positioning
 
 
