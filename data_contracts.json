@@ -1,0 +1,40 @@
+{
+  "customers": {
+    "primary_key": "customer_id",
+    "columns": {
+      "customer_id": "string",
+      "first_name": "string",
+      "last_name": "string",
+      "email": "string",
+      "country": "string",
+      "created_at": "timestamp",
+      "updated_at": "timestamp"
+    }
+  },
+  "accounts": {
+    "primary_key": "account_id",
+    "columns": {
+      "account_id": "string",
+      "customer_id": "string",
+      "account_type": "string",
+      "currency": "string",
+      "status": "string",
+      "opened_at": "date",
+      "updated_at": "timestamp"
+    }
+  },
+  "transactions": {
+    "primary_key": "transaction_id",
+    "columns": {
+      "transaction_id": "string",
+      "account_id": "string",
+      "transaction_ts": "timestamp",
+      "amount": "decimal(18,2)",
+      "currency": "string",
+      "transaction_type": "string",
+      "channel": "string",
+      "status": "string",
+      "updated_at": "timestamp"
+    }
+  }
+}

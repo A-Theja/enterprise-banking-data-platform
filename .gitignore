@@ -1,0 +1,13 @@
+.env
+*.pyc
+__pycache__/
+.DS_Store
+.vscode/
+.idea/
+.terraform/
+*.tfstate
+*.tfstate.*
+target/
+dbt_packages/
+logs/
+secrets/
