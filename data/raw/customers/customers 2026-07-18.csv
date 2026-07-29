@@ -1,0 +1,4 @@
+customer_id,first_name,last_name,email,country,created_at,updated_at
+C001,Ava,Patel,ava.patel@example.com,CA,2025-01-10T09:00:00,2026-07-18T10:15:00
+C002,Noah,Smith,noah.smith@example.com,CA,2025-02-14T11:30:00,2026-07-18T10:20:00
+C003,Mia,Chen,mia.chen@example.com,US,2025-03-21T14:20:00,2026-07-18T10:25:00
